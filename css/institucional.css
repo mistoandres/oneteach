@@ -1,6 +1,8 @@
 .institucional {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
     align-items: center;
 
     color: var(--fuente-ceniza-oscuro);
@@ -17,7 +19,7 @@
     font-family: var(--montserrat);
     text-transform: uppercase;
     text-align: center;
-
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -28,27 +30,27 @@
 .institucional__direccion {
     font-size: 1.5rem;
     line-height: normal;
-
     margin-bottom: 2rem;
 }
 
 .institucional__contacto {
     font-size: 1.2rem;
     line-height: 1.8;
-
     margin-top: 2rem;
 }
 
 .institucional__contacto-telefono {
     line-height: normal;
+    color: var(--fuente-enlace);
+    text-decoration: underline;
 }
 
 .institucional__contacto-email {
-    color: var(--fuente-ceniza-oscuro);
+    color: var(--fuente-enlace);
     text-decoration: underline;
     display: block;
 }
 
 .institucional__video {
-    width: 100vw;
+    width: 35vw;
 }

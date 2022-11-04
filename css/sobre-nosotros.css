@@ -15,7 +15,8 @@
 
 .sobre_nosotros__texto {
     line-height: normal;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    font-family: var(--fuente-ceniza-oscuro);
 }
 
 .sobre_nosotros__plataformas {
@@ -25,7 +26,12 @@
     margin-bottom: 1rem;
 }
 
-.sobre-nosotros {
+.sobre-nosotros-1 {
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
+}
+
+.sobre-nosotros-hr {
+    border-top: 1px solid rgb(190, 190, 190);
+
 }

@@ -22,8 +22,7 @@
 
 .contacto__boton {
     color: var(--boton-rojo);
-
+    font-weight: 700;
     border-color: var(--boton-rojo);
-
     margin-top: 1.25rem;
 }

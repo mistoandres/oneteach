@@ -7,16 +7,17 @@
 
 .planes__titulo {
     color: var(--fuente-ceniza-oscuro);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: var(--montserrat);
-
+    text-align: center;
     margin-bottom: 1.25rem;
+    font-weight: 550;
 }
 
 .planes__tarjetas {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .tarjetas {
@@ -62,6 +63,7 @@
 .tarjetas__texto {
     color: var(--fuente-ceniza-oscuro);
     line-height: 28px;
+    font-size: 0.90rem;
 }
 
 .tarjetas__boton {
@@ -79,20 +81,28 @@
 }
 
 .tarjetas--start {
+    color: var(--planes-card-start);
 }
 
 .tarjetas--ultra {
+    color: var(--planes-card-ultra);
 }
 
 .tarjetas--mega {
+    color: var(--planes-card-mega);
 }
 
 .tarjetas__boton--start {
+    border-color: var(--planes-card-start);
+    color: var(--planes-card-start);
 }
 
 .tarjetas__boton--ultra {
+    border-color: var(--planes-card-ultra);
+    color: var(--planes-card-ultra);
 }
 
 .tarjetas__boton--mega {
     border-color: var(--planes-card-mega);
+    color: var(--planes-card-mega);
 }

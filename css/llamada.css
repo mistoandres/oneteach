@@ -6,15 +6,17 @@
     color: var(--background-blanco);
     text-align: center;
     
-    background-color: var(--background-llamada-mobile);
+    background-image: url(/img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
     padding-top: 12.25rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 3.0rem;
 }
 
 .llamada__titulo {
     font-family: var(--montserrat);
-    font-size: 2rem;
+    font-size: 3.8rem;
     font-weight: 700;
     text-transform: uppercase;
 

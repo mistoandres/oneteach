@@ -5,24 +5,28 @@
 
     box-sizing: border-box;
 
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
 
-    padding-top: .75rem;
+    padding-top: 0.75rem;
     padding-bottom: .75rem;
-
-    border-bottom: 1px solid var(--border-cabecera-mobile);
 
     position: absolute;
 }
 
 .head__logo {
-    margin-bottom: 1rem;
+    /*margin-bottom: 1rem;
+    padding-bottom: 20px;*/
+    float: left;
+    max-width: 100%;
+    height: auto;    
 }
 
 .head__navegacion {
     text-align: center;
+    float: right;
+    padding-top: 1.90rem;
 }
 
 .head__enlace {
